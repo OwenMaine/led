@@ -38,6 +38,185 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
       <![endif]-->
+
+      <style>
+         /* General Responsive Styles */
+         @media (max-width: 768px) {
+             .container {
+                 padding-left: 15px;
+                 padding-right: 15px;
+                 overflow-x: hidden;
+             }
+         
+             /* Header Adjustments */
+             .header .logo_circle {
+                 padding: 5px;
+             }
+         
+             .company-name {
+                 font-size: 20px !important;
+             }
+         
+             /* Navigation Adjustments */
+             .sidenav {
+                 width: 100%;
+                 max-width: 300px;
+             }
+         
+             /* Search Bar Adjustments */
+             .searchbar {
+                 width: 100%;
+                 margin: 10px 0;
+             }
+         
+             .search_input {
+                 width: calc(100% - 40px);
+             }
+         
+             /* Product Section Adjustments */
+             .product_box {
+                 margin: 10px 0;
+             }
+         
+             .product_img {
+                 height: 200px !important;
+             }
+         
+             /* About Section Adjustments */
+             .about_section .row {
+                 flex-direction: column-reverse;
+             }
+         
+             .about_section img {
+                 margin: 20px 0;
+                 width: 100%;
+                 height: auto;
+             }
+         
+             /* Contact Form Adjustments */
+             .form_main {
+                 padding: 15px;
+             }
+         
+             .form_main input,
+             .form_main textarea,
+             .form_main select {
+                 width: 100%;
+             }
+         
+             /* Footer Adjustments */
+             .footer_top .col-sm-3 {
+                 margin-bottom: 30px;
+             }
+         
+             .cont_info {
+                 margin-bottom: 15px;
+             }
+         
+             /* Button Adjustments */
+             .read_more_bt {
+                 width: 100%;
+                 text-align: center;
+                 margin: 10px 0;
+             }
+         
+             /* Layout Padding Adjustments */
+             .layout_padding {
+                 padding: 40px 0;
+             }
+         
+             /* Image Responsiveness */
+             .img-responsive {
+                 width: 100%;
+                 height: auto;
+             }
+         
+             /* Text Adjustments */
+             h3 {
+                 font-size: 24px !important;
+             }
+         
+             p {
+                 font-size: 14px !important;
+             }
+         
+             /* Grid Adjustments */
+             .col-md-3, .col-md-4, .col-md-6 {
+                 margin-bottom: 20px;
+             }
+         
+             /* Service Box Adjustments */
+             .service_box {
+                 margin-bottom: 20px;
+             }
+         }
+         
+         /* Small Phone Adjustments */
+         @media (max-width: 576px) {
+             /* Header Logo */
+             .company-name span {
+                 font-size: 18px !important;
+             }
+         
+             /* Navigation */
+             .menu_sidebar li a {
+                 padding: 10px 15px;
+             }
+         
+             /* Contact Info */
+             .cont_info span {
+                 font-size: 14px;
+             }
+         
+             /* Form Elements */
+             .form_main input,
+             .form_main textarea {
+                 padding: 10px;
+             }
+         
+             /* Buttons */
+             .read_more_bt {
+                 padding: 10px 20px;
+                 font-size: 14px;
+             }
+         }
+         
+         /* Fix for Horizontal Scroll */
+         html, body {
+             overflow-x: hidden;
+             width: 100%;
+             max-width: 100%;
+         }
+         
+         /* Image Responsiveness */
+         img {
+             max-width: 100%;
+             height: auto;
+         }
+         
+         /* Container Max Width */
+         .container {
+             max-width: 100%;
+         }
+         
+         /* Flexbox Utilities */
+         .d-flex {
+             display: flex;
+         }
+         
+         .flex-wrap {
+             flex-wrap: wrap;
+         }
+         
+         /* Spacing Utilities */
+         .mb-3 {
+             margin-bottom: 1rem;
+         }
+         
+         .p-2 {
+             padding: 0.5rem;
+         }
+         </style>
    </head>
    <body id="default_theme" class="contact">
       <div id="mySidenav" class="sidenav">
